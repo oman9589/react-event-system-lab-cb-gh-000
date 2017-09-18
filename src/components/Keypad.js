@@ -5,7 +5,7 @@ class Keypad extends React.Component {
     handleInput = () => {
       console.log('Entering password...');
     }
-    
+
     return (
       <input> type="password"
       onKeyUp={this.handleInput}
@@ -13,3 +13,5 @@ class Keypad extends React.Component {
     );
   }
 }
+
+export default Keypad;
